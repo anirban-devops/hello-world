@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+FROM tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
+LABEL authors "anirban.server@gmail.com" 
 COPY ./webapp.war /usr/local/tomcat/webapps
